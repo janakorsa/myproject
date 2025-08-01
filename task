@@ -60,16 +60,14 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
 
-            // قسم New Releases
             sectionTitle("New Releases"),
             movieRow([
-              "assets/f8b938401308eabc48c30669869eeac8.png", // Narcos
-              "assets/d09cbedd39d8c74b576632e50de5c3d3.png", // Deadpool 2
-              "assets/Annabelle.png",                        // Annabelle
-              "assets/e38d645574a267d62c7320ca51baf6d2.png", // Toy Story 4
+              "assets/f8b938401308eabc48c30669869eeac8.png",
+              "assets/d09cbedd39d8c74b576632e50de5c3d3.png", 
+              "assets/Annabelle.png",                       
+              "assets/e38d645574a267d62c7320ca51baf6d2.png", 
             ]),
 
-            // قسم Recommended (كلها نفس الفيلم في التصميم - Deadpool 2)
             sectionTitle("Recommended"),
             movieRow([
               "assets/d09cbedd39d8c74b576632e50de5c3d3.png",
